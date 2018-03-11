@@ -1,0 +1,37 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 7ff7f3ecbce64f9c94b7116b3313bb40 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cerberus_tb_behav xil_defaultlib.Cerberus_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.DFM [dfm_default]
+Compiling architecture behavioral of entity xil_defaultlib.CLK_50Hz [clk_50hz_default]
+Compiling architecture behavioral of entity xil_defaultlib.Alarme [alarme_default]
+Compiling architecture behavioral of entity xil_defaultlib.LEDS [leds_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMPT4 [cmpt4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Attente_1_front [attente_1_front_default]
+Compiling architecture behavioral of entity xil_defaultlib.FDE [fde_default]
+Compiling architecture behavioral of entity xil_defaultlib.Commande_Compteur [commande_compteur_default]
+Compiling architecture behavioral of entity xil_defaultlib.Compteur [compteur_default]
+Compiling architecture behavioral of entity xil_defaultlib.Detection_FIN [detection_fin_default]
+Compiling architecture behavioral of entity xil_defaultlib.TEMPO_50us [tempo_50us_default]
+Compiling architecture behavioral of entity xil_defaultlib.GEST_gen [gest_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMPT_1toNmax [cmpt_1tonmax_default]
+Compiling architecture behavioral of entity xil_defaultlib.GEN_BitSignal [gen_bitsignal_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMPT1 [cmpt1_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMPT2 [cmpt2_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMPT3 [cmpt3_default]
+Compiling architecture behavioral of entity xil_defaultlib.GEN_NPSIGNAL [gen_npsignal_default]
+Compiling architecture behavioral of entity xil_defaultlib.NEOPIXEL [neopixel_default]
+Compiling architecture behavioral of entity xil_defaultlib.FDE2 [fde2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Cerberus [cerberus_default]
+Compiling architecture behavioral of entity xil_defaultlib.cerberus_tb
+Built simulation snapshot Cerberus_tb_behav

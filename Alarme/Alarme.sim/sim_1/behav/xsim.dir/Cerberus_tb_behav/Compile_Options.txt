@@ -1,0 +1,1 @@
+-wto "7ff7f3ecbce64f9c94b7116b3313bb40" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Cerberus_tb_behav" "xil_defaultlib.Cerberus_tb" -log "elaborate.log" 

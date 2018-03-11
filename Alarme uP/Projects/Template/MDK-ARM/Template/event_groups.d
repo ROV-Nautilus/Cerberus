@@ -1,0 +1,11 @@
+.\template\event_groups.o: ..\Utilities\event_groups.c
+.\template\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\template\event_groups.o: ..\Utilities\FreeRTOS.h
+.\template\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\template\event_groups.o: ..\Utilities\projdefs.h
+.\template\event_groups.o: ..\Utilities\FreeRTOSConfig.h
+.\template\event_groups.o: ..\Utilities\portable.h
+.\template\event_groups.o: ..\Utilities\portmacro.h
+.\template\event_groups.o: ..\Utilities\mpu_wrappers.h
+.\template\event_groups.o: ..\Utilities\task.h
+.\template\event_groups.o: ..\Utilities\list.h

@@ -1,0 +1,12 @@
+.\template\queue.o: ..\Utilities\queue.c
+.\template\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\template\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\template\queue.o: ..\Utilities\FreeRTOS.h
+.\template\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\template\queue.o: ..\Utilities\projdefs.h
+.\template\queue.o: ..\Utilities\FreeRTOSConfig.h
+.\template\queue.o: ..\Utilities\portable.h
+.\template\queue.o: ..\Utilities\portmacro.h
+.\template\queue.o: ..\Utilities\mpu_wrappers.h
+.\template\queue.o: ..\Utilities\task.h
+.\template\queue.o: ..\Utilities\list.h

@@ -1,0 +1,703 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 20 18:21:53 2017
+# Process ID: 7932
+# Current directory: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8132 C:\Users\dylan_000\Desktop\ENSEA\Projet\Alarme\Alarme.xpr
+# Log file: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/vivado.log
+# Journal file: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+open_run synth_1 -name synth_1
+synth_design -rtl -name rtl_1
+refresh_design
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close [ open C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/Attente_1_front.vhd w ]
+add_files C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/Attente_1_front.vhd
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source NEOPIXEL_tb.tcl
+restart
+run 400 us
+close_sim
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sim_1/new/Cerberus_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sim_1/new/Cerberus_tb.vhd
+set_property top Cerberus_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+refresh_design
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_design
+close_design
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 400 us
+restart
+run 400 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_sim
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close [ open C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/CMPT3.vhd w ]
+add_files C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/CMPT3.vhd
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close [ open C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/CMPT4.vhd w ]
+add_files C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.srcs/sources_1/new/CMPT4.vhd
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 600 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 600 us
+restart
+run 800 us
+restart
+run 800 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_hw
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 800 us
+restart
+run 800 us
+restart
+run 800 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 800 us
+restart
+run 800 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 800 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 800 us
+close_sim
+launch_simulation
+source Cerberus_tb.tcl
+restart
+run 800 us
+restart
+run 800 us
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.runs/impl_1/Cerberus.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+close_sim

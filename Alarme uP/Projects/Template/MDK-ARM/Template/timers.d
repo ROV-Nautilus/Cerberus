@@ -1,0 +1,12 @@
+.\template\timers.o: ..\Utilities\timers.c
+.\template\timers.o: ..\Utilities\FreeRTOS.h
+.\template\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\template\timers.o: ..\Utilities\projdefs.h
+.\template\timers.o: ..\Utilities\FreeRTOSConfig.h
+.\template\timers.o: ..\Utilities\portable.h
+.\template\timers.o: ..\Utilities\portmacro.h
+.\template\timers.o: ..\Utilities\mpu_wrappers.h
+.\template\timers.o: ..\Utilities\task.h
+.\template\timers.o: ..\Utilities\list.h
+.\template\timers.o: ..\Utilities\queue.h
+.\template\timers.o: ..\Utilities\timers.h

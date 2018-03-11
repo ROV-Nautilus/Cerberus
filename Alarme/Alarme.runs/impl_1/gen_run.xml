@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1493025873">
+  <File Type="PWROPT-DRC" Name="Cerberus_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Cerberus_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Cerberus_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Cerberus_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="Cerberus.tcl"/>
+  <File Type="OPT-HWDEF" Name="Cerberus.hwdef"/>
+  <File Type="RDI-RDI" Name="Cerberus.vdi"/>
+  <File Type="OPT-DCP" Name="Cerberus_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Cerberus_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Cerberus_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Cerberus_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Cerberus_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Cerberus_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Cerberus_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Cerberus_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Cerberus_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Cerberus_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Cerberus_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Cerberus_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Cerberus_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Cerberus_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Cerberus_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Cerberus_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Cerberus_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Cerberus_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Cerberus_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Cerberus_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Cerberus_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Cerberus_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Cerberus_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Cerberus_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Cerberus.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="Cerberus_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="Cerberus.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Cerberus_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Cerberus.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Cerberus_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Cerberus.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Cerberus_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Cerberus_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Cerberus_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Cerberus_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Cerberus_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Cerberus_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Cerberus_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Cerberus_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Cerberus_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Cerberus_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Cerberus_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Cerberus_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Cerberus_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Cerberus_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Cerberus_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Cerberus.bit"/>
+  <File Type="BITSTR-RBT" Name="Cerberus.rbt"/>
+  <File Type="BITSTR-NKY" Name="Cerberus.nky"/>
+  <File Type="BITSTR-BMM" Name="Cerberus_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Cerberus.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Cerberus.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Detection_FIN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Compteur.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Commande_Compteur.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TEMPO_50us.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GEST_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GEN_BitSignal.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FDE.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CMPT_1toNmax.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CMPT3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CMPT2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CMPT1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Attente_1_front.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LEDS.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GEN_NPSIGNAL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CMPT4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DFM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/attente.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FDE2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLK_50Hz.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Alarme.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/NEOPIXEL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Cerberus.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Cerberus"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Cerbere.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Detection_FIN.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Compteur.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Commande_Compteur.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/TEMPO_50us.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/GEST_gen.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/GEN_BitSignal.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/FDE.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CMPT_1toNmax.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CMPT3.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CMPT2.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CMPT1.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Attente_1_front.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/LEDS.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/GEN_NPSIGNAL.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CMPT4.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/FDE2.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/DFM.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/CLK_50Hz.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Alarme.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/NEOPIXEL.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sources_1/new/Cerberus.vhd"
+vhdl xil_defaultlib  "../../../Alarme.srcs/sim_1/new/Cerberus_tb.vhd"
+
+# Do not sort compile order
+nosort

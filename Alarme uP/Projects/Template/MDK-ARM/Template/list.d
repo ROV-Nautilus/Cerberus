@@ -1,0 +1,10 @@
+.\template\list.o: ..\Utilities\list.c
+.\template\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\template\list.o: ..\Utilities\FreeRTOS.h
+.\template\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\template\list.o: ..\Utilities\projdefs.h
+.\template\list.o: ..\Utilities\FreeRTOSConfig.h
+.\template\list.o: ..\Utilities\portable.h
+.\template\list.o: ..\Utilities\portmacro.h
+.\template\list.o: ..\Utilities\mpu_wrappers.h
+.\template\list.o: ..\Utilities\list.h

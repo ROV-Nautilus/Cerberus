@@ -1,0 +1,10 @@
+.\template\port_cm4.o: ..\Utilities\port_cm4.c
+.\template\port_cm4.o: ..\Utilities\FreeRTOS.h
+.\template\port_cm4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\template\port_cm4.o: ..\Utilities\projdefs.h
+.\template\port_cm4.o: ..\Utilities\FreeRTOSConfig.h
+.\template\port_cm4.o: ..\Utilities\portable.h
+.\template\port_cm4.o: ..\Utilities\portmacro.h
+.\template\port_cm4.o: ..\Utilities\mpu_wrappers.h
+.\template\port_cm4.o: ..\Utilities\task.h
+.\template\port_cm4.o: ..\Utilities\list.h

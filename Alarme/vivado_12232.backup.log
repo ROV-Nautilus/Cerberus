@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Jun 01 08:11:49 2017
+# Process ID: 12232
+# Current directory: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18404 C:\Users\dylan_000\Desktop\ENSEA\Projet\Alarme\Alarme.xpr
+# Log file: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/vivado.log
+# Journal file: C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/dylan_000/Desktop/ENSEA/Projet/Alarme/Alarme.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 692.070 ; gain = 101.816
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 05 14:02:12 2017...
